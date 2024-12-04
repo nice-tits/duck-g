@@ -23,11 +23,11 @@ let lightUrl;
 
 if (window.location.origin.includes("workers.dev")) {
   apiUrl = window.location.origin + "/chat/";
-  styleUrl = "https://vauth.github.io/duck-gui/styles/styles.css"; // Changeable 
-  lightUrl = "https://vauth.github.io/duck-gui/styles/light.css"; // Changeable
+  styleUrl = "https://github.com/nice-tits/duck-g/blob/main/styles/styles.css"; // Changeable
+  lightUrl = "https://github.com/nice-tits/duck-g/blob/main/styles/light.css"; // Changeable
 }
 else {
-  apiUrl = "https://duckgpt.iriszarox.workers.dev/chat/"; // Add your own url, get one from here https://github.com/vauth/duckgpt
+  apiUrl = "https://tiny-fire.someg.workers.dev/chat/"; // Add your own url, get one from here https://github.com/vauth/duckgpt
   styleUrl = "styles/styles.css";
   lightUrl = "styles/light.css";
 }
