@@ -1,0 +1,87 @@
+/* -----------------------------------------------
+/* Author : Zarox  - https://github.com/ZAR0X
+/* MIT license: http://opensource.org/licenses/MIT
+/* Demo  : https://duckgpt-gui.netlify.app/
+/* GitHub : https://github.com/ZAR0X/duck-gui
+/* How to use? : Check the GitHub README
+/* v0.5.5
+/* ----------------------------------------------- */
+
+body, html {
+    color: #1e1e1e !important ;
+    background: linear-gradient(135deg, #ffffff, #a4a4a4) !important ;
+}
+
+a {
+    color: #2965ff !important;
+}
+
+.iconImg {
+    filter: invert() !important ;
+}
+
+.intro-card {
+    color: #1e1e1e !important ;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.intro-card > img {
+    filter: invert() !important ;
+}
+
+#dailog {
+    background-color: #333 !important ;
+    color: #000000 !important ;
+}
+
+#popup-overlay {
+    background: rgba(255, 255, 255, 0.5) !important ;
+}
+
+#popup-content {
+    background: rgba(255, 255, 255, 0) !important ;
+    backdrop-filter: none;
+}
+
+#yes-button, #no-button {
+    background-color: #1e1e1e !important ;
+    color: #e1e1e1 !important ;
+}
+
+.socials a {
+    color: #1e1e1e !important;
+}
+
+.message-card {
+    background: rgba(0, 0, 0, 0.2) !important ;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+
+.message-card.api {
+    background: rgba(100, 100, 255, 0) !important ;
+}
+
+code {
+    color: #f5f5f5 !important;
+    padding: 1px 3px;
+}
+
+
+#chat-input {
+    background: rgba(0, 0, 0, 0.6) !important ;
+    color: rgb(255, 255, 255) !important;
+}
+
+
+#placeholder {
+    color: #aaa !important ;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* 
+horizontal scroll height fix
+*/
